@@ -28,3 +28,4 @@ jobs:
             nexus_repo_password: ${{secrets.EC2_NEXUS_PASSWORD}}
             repo_name: ${{github.event.workflow_run.head_repository.full_name}}
             branch_name: ${{github.event.workflow_run.head_branch}}
+            is_self_hosted: 'true'
